@@ -503,6 +503,7 @@ pub use serde_derive::*;
 #[macro_use]
 extern crate proc_macro_hack;
 
+#[allow(unused_imports)]
 #[doc(hidden)]
 #[macro_export]
 pub use tower_web_macros::*;
